@@ -7,6 +7,7 @@ import Experience from '@/components/sections/Experience'
 import Works from '@/components/sections/Works'
 import Contact from '@/components/sections/Contact'
 import Footer from '@/components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </Head>
       <Navbar> </Navbar>
       <Hero> </Hero>
+      <Analytics></Analytics>
       <About> </About>
       <Services></Services>
       <Experience></Experience>

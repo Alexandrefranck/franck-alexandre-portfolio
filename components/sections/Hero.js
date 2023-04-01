@@ -3,7 +3,7 @@ import Lottie from "react-lottie";
 import animationData from "../../public/lotties/8167-simple-scroll-down-icon.json";
 import ThreeDButtons from '../ThreeDButtons';
 import Image from 'next/image';
-import Avatar from '@/public/photos/Arkange.svg';
+import Avatar from '@/public/photos/Arkange.png';
 
 const defaultOptions = {
     loop: true,
@@ -21,7 +21,7 @@ function Hero() {
     return (
         <div className="vh-100 bg-dark d-flex align-items-center justify-content-center">
             <div className="text-white text-center">
-                <Image src={Avatar} width={250} height={370} className='rounded-circle' />
+                <Image src={Avatar} width={250} height={300} className='rounded-circle' />
                 <h1 className="mt-4">Alexandre Franck</h1>
                 <p>Développeur Web en recherche d'alternance !</p>
                 <div className="d-flex justify-content-center gap-4 fs-4">
@@ -42,7 +42,10 @@ function Hero() {
                     </a>
                 </div>
             </div>
-                
+                <a href="#" className={styles.lottieSection}>
+                    <small className="text-white">Scroll Down</small>
+                    <Lottie options={defaultOptions} height={40} width={40} />
+                </a>
         </div>
     );
 }
