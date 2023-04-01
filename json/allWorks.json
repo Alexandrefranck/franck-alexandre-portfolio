@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Pokedex",
+        "slug": "https://pokedex-api-nu-five.vercel.app/",
+        "illustration": "Blog",
+        "categorie": "JS"
+    },
+    {
+        "name": "Integration HTML",
+        "slug": "https://integration-html-alexandre.vercel.app/",
+        "illustration": "Dashboard",
+        "categorie": "HTML"
+    },
+    {
+        "name": "Cocktail API",
+        "slug": "https://recherche-cocktail-api.vercel.app/",
+        "illustration": "Ideation",
+        "categorie": "React JS"
+    }
+
+]
