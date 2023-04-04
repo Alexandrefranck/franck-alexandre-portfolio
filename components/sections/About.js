@@ -50,9 +50,9 @@ function About() {
         <div className="col-lg-2 d-none d-lg-block">
           <Image
             src={Avatar}
-            width={186}
-            height={206}
-            className="rounded-circle"
+            width={200}
+            height={200}
+            className='rounded-circle object-fit-contain px-4 px-md-0 '
           />
           {/* <img src="https://jthemes.net/themes/wp/bolby/bolby5/wp-content/uploads/sites/5/2021/01/avatar-1-2.svg" className='w-100' alt="" /> */}
         </div>
@@ -63,8 +63,8 @@ function About() {
             <div className="col-md-6">
               <p className="lh-lg">
                 J'ai actuellement 23 ans, en reconversion professionnelle après
-                avoir travaillé 5 ans en restauration, passionner aussi de rugby
-                ce qui m'a permit d'apprendre ce que c'est le travail collectif,
+                avoir travaillé 5 ans en restauration, passionné aussi de rugby
+                ce qui m'a permis d'apprendre ce que c'est le travail collectif,
                 savoir m'adapter et rebondir est l'un de mes plus gros atouts !
                 Souriant, joyeux à longueur de journée, je serai prêt à relever,
                 n'importe quel défi !
