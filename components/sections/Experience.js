@@ -6,7 +6,7 @@ function Experience() {
 
     const experiences = [
         {
-            yearStart: 2019,
+            yearStart: 2022,
             yearEnd: null,
             title: "Mediaschool Nice",
             organization: "Bachelor SupdewebDev",
