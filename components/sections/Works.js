@@ -36,10 +36,10 @@ function Works() {
                         >
                             <div className={`${styles.work} rounded-5 shadow-sm position-relative`} style={{ backgroundImage: `url('/realisations/${work.illustration}.png')` }}>
                                 <div className={`${styles.overlay} rounded-5`}></div>
-                                <Link href={`${work.slug}`} className='stretched-link' >
+                                <a target="_blank" href={`${work.slug}`} className='stretched-link' >
                                     <span className='p-2 rounded-bottom-4'>{work.categorie}</span>
                                     <h3>{work.name}</h3>
-                                </Link>
+                                </a>
                             </div>
                         </motion.div>
                     )}
