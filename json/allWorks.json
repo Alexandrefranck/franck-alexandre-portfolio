@@ -16,5 +16,12 @@
     "slug": "https://recherche-cocktail-api.vercel.app/",
     "illustration": "Ideation",
     "categorie": "React JS"
+  },
+  {
+    "name": "Recherche jeu vidéo API",
+    "slug": "https://recherche-jeuvideo-api.vercel.app/",
+    "illustration": "discord",
+    "categorie": "Next JS"
   }
+  
 ]
